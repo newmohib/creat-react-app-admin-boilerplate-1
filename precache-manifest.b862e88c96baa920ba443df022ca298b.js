@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bfcb8596c682a5b9014a042cf55fea8f",
+    "revision": "6b6e283b7e3818a1cd31c4b83c069b30",
     "url": "/creat-react-app-admin-boilerplate-1/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/creat-react-app-admin-boilerplate-1/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "a59e5182a9c5810422cc",
+    "revision": "51f02cc03b53bc980efd",
     "url": "/creat-react-app-admin-boilerplate-1/static/css/main.b4e9390d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/creat-react-app-admin-boilerplate-1/static/js/2.4123c8ac.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a59e5182a9c5810422cc",
-    "url": "/creat-react-app-admin-boilerplate-1/static/js/main.9503c0ea.chunk.js"
+    "revision": "51f02cc03b53bc980efd",
+    "url": "/creat-react-app-admin-boilerplate-1/static/js/main.2718d8cd.chunk.js"
   },
   {
     "revision": "c1445884c7f594c934d0",
