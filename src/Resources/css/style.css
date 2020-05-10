@@ -1,0 +1,143 @@
+.custom_form{
+    border: 0px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px 0px #8a66b941; 
+    background-color:white; 
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+  }
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #f5f5f5;
+}
+  /* Custom page CSS
+  -------------------------------------------------- */
+  /* Not required for template or sticky footer method. */
+  
+body > .container {
+    padding: 60px 15px 0;
+}
+  
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+ .cursor_pointer{
+  cursor: pointer;
+}
+
+
+
+
+
+.page_number_padding{
+	padding-left: 2.5px;
+	/*padding-right: 2.5px;*/
+}
+
+.border_radius_50{
+	border-radius: 50%;
+}
+
+.border_radius_40{
+	border-radius: 40%;
+}
+
+.scrolling-wrapper {
+	overflow-x: auto;
+	overflow-y: hidden;
+	white-space: nowrap;
+	margin-left: 12px;
+	
+  }
+
+  .card {
+    display: inline-block;
+    border: none;
+    outline: none;
+    
+  }
+
+  .btn-link{
+    color: #e7edf3;
+    text-decoration: none !important;
+}
+
+.min_width_1000{
+  min-width: 1000px;
+}
+
+
+/* child table */
+.table_value_pre::before{
+  content: ':';
+  position: absolute;
+  left: 0;
+}
+
+.child_table_background{
+  background-color: hsla(0,0%,87.1%,.12);
+  
+}
+
+
+.info-table__tr {
+  position: relative;
+  word-break: break-word;
+}
+.info-table__tr:after {
+  content: "";
+  height: 100%;
+  width: 1px;
+  background: #ddd;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+.info-table__tr > div:not(:first-child) {
+  padding-left: 1.875rem;
+}
+
+/* Sidebar */
+
+.overlay.active {
+  display: block;
+  opacity: 1;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1001;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+.header_z_index{
+  z-index: 1002;
+}
+
