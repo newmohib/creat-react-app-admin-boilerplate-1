@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/creat-react-app-admin-boilerplate-1/static/css/main.b4e9390d.chunk.css",
+    "main.js": "/creat-react-app-admin-boilerplate-1/static/js/main.9503c0ea.chunk.js",
+    "main.js.map": "/creat-react-app-admin-boilerplate-1/static/js/main.9503c0ea.chunk.js.map",
+    "runtime-main.js": "/creat-react-app-admin-boilerplate-1/static/js/runtime-main.26a20f15.js",
+    "runtime-main.js.map": "/creat-react-app-admin-boilerplate-1/static/js/runtime-main.26a20f15.js.map",
+    "static/css/2.de424728.chunk.css": "/creat-react-app-admin-boilerplate-1/static/css/2.de424728.chunk.css",
+    "static/js/2.4123c8ac.chunk.js": "/creat-react-app-admin-boilerplate-1/static/js/2.4123c8ac.chunk.js",
+    "static/js/2.4123c8ac.chunk.js.map": "/creat-react-app-admin-boilerplate-1/static/js/2.4123c8ac.chunk.js.map",
+    "index.html": "/creat-react-app-admin-boilerplate-1/index.html",
+    "precache-manifest.44c16dec8edf9099db13bf72aefd9fc1.js": "/creat-react-app-admin-boilerplate-1/precache-manifest.44c16dec8edf9099db13bf72aefd9fc1.js",
+    "service-worker.js": "/creat-react-app-admin-boilerplate-1/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/creat-react-app-admin-boilerplate-1/static/css/2.de424728.chunk.css.map",
+    "static/css/main.b4e9390d.chunk.css.map": "/creat-react-app-admin-boilerplate-1/static/css/main.b4e9390d.chunk.css.map",
+    "static/js/2.4123c8ac.chunk.js.LICENSE.txt": "/creat-react-app-admin-boilerplate-1/static/js/2.4123c8ac.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.26a20f15.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.4123c8ac.chunk.js",
+    "static/css/main.b4e9390d.chunk.css",
+    "static/js/main.9503c0ea.chunk.js"
+  ]
+}
