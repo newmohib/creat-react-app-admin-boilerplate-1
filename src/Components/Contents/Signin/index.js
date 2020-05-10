@@ -31,7 +31,8 @@ let Signin = (props) => {
         historyObj.push(value)
     }
     
-    console.log("env", process.env.REACT_APP_NOT_SECRET_CODE);
+    //console.log("env", process.env.REACT_APP_BASE_URL);
+    const githubPath= process.env.REACT_APP_GITHUB_PATH;
     return (
         <div className="row justify-content-center mt-5">
             <div className="col-12 col-md-8 col-xl-6 col-lg-6 col-sm-10">
@@ -42,8 +43,8 @@ let Signin = (props) => {
                                 <div className="row mt-n2 mb-2 ml-n4 mr-n4">
                                     <div className="col-12 ">
                                         <div className="btn-group btn-block btn-group-lg mx-auto " role="group" aria-label="Basic example">
-                                            <button onClick={() => routChange("/")} type="button" className="btn btn-outline-primary border-top-0 border-right-0 border-left-0  border-bottom">Sign In</button>
-                                            <button onClick={() => routChange("/authe/signup")} type="button" className="btn btn-outline-primary border-top-0 border-right-0 border-left-0  border-bottom">Sign Up</button>
+                                            <button onClick={() => routChange(`/${githubPath}`)} type="button" className="btn btn-outline-primary border-top-0 border-right-0 border-left-0  border-bottom">Sign In</button>
+                                            <button onClick={() => routChange(`/${githubPath}/authe/signup`)} type="button" className="btn btn-outline-primary border-top-0 border-right-0 border-left-0  border-bottom">Sign Up</button>
                                         </div>
                                     </div>
                                 </div>
