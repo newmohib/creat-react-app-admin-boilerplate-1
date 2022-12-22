@@ -25,7 +25,9 @@
     "test": "react-scripts test",
     "predeploy":"npm run build",
     "deploy":"gh-pages -d build",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "prod": "pm2 start ./server.js --name react-app-1",
+    "stop": "pm2 stop react-app-1"
   },
   "eslintConfig": {
     "extends": "react-app"
