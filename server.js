@@ -11,7 +11,7 @@ const path = require("path");
 
 
 const app = express();
-let port = process.env.PROD_PORT || 3001;
+let port = process.env.PROD_PORT || 3000;
 
 // app.use(bodyParser.urlencoded({ extended: true }));
 
